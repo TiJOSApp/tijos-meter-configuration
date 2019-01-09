@@ -133,7 +133,7 @@ var app = {
                     $('button').removeAttr('disabled');
                     isSetting = false;
                 });
-            }, 100);
+            }, 300);
         }, function (error) {
             mui.toast(error, { duration: 1500, type: 'div' });
             $('button').removeAttr('disabled');

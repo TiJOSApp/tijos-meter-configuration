@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jan 09 19:44:43 CST 2019
+#Wed Jan 09 20:12:38 CST 2019
 25.file=D\:\\mycode\\android\\android\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-land-xhdpi-v4\\screen.png
 41.base=D\:\\mycode\\android\\android\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 25.base=D\:\\mycode\\android\\android\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_

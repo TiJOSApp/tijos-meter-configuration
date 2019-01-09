@@ -103,7 +103,7 @@ let app = {
                             function success(data){
                                 // decode the received message
                                 var view = new Uint8Array(data);
-                                if (open = true){
+                                if (open && isSetting){
                                     //mui.toast(String.fromCharCode.apply(null, new Uint8Array(view)).trim(),{ duration:1500, type:'div' });
                                     $('button').removeAttr('disabled');
                                     mui.toast('设置成功',{ duration:1500, type:'div' });
@@ -145,7 +145,7 @@ let app = {
                     $('button').removeAttr('disabled');
                     isSetting = false;
                 });
-            }, 100);
+            }, 300);
         }, function (error) {
             mui.toast(error,{ duration:1500, type:'div' });
             $('button').removeAttr('disabled');
