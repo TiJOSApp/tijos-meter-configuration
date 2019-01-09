@@ -1,0 +1,113 @@
+@import "const";
+@import "mui";
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+button{
+  width: 2rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.5rem;
+  color: #fff;
+  background-color: $mainColor;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: top;
+  white-space: nowrap;
+  border: 0;
+  border-radius: 3px;
+  outline: none;
+}
+
+input[type=text]{
+  width: 100%;
+  height: 1rem;
+  float: left;
+  line-height: 1rem;
+  font-size: 0.6rem;
+  margin-bottom: 15px;
+  padding: 0;
+  -webkit-user-select: text;
+  border: 0;
+  border-bottom: 1px solid #666;
+  border-radius: 0;
+  outline: 0;
+  background-color: #fff;
+  appearance: none;
+  color: #666;
+}
+
+.header{
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: $mainColor;
+  line-height: 1.5rem;
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.app{
+  width: 100%;
+  height: calc(100% - 1.5rem);
+  padding: 0.2rem;
+  .content{
+    width: calc(100% - 0.4rem);
+    height: 100%;
+    font-size: 0.6rem;
+    color: #666;
+    .box{
+      width: calc(100% - 2.4rem);
+      position: relative;
+      display: inline-block;
+      #base{
+        width: calc(100% - 2rem);
+        padding-right: 2rem;
+      }
+      .space{
+        float: left;
+        display: inline-block;
+        width: 0.2rem;
+      }
+      #port{
+        margin-left: 0.2rem;
+      }
+      .unit{
+        font-size: 0.4rem;
+        position: absolute;
+        right: 0;
+        top: 0.3rem;
+      }
+    }
+    .setting{
+      float: right;
+    }
+    #SNBefore{
+      width: 2rem;
+    }
+    #SNAfter{
+      width: calc(100% - 2.2rem);
+    }
+    .ip {
+      width: calc((100% - 0.8rem)/5);
+    }
+    #report{
+      width: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    .init-button{
+      width: 100%;
+      height: 1rem;
+    }
+  }
+}
+
